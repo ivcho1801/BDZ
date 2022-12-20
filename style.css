@@ -1,0 +1,13 @@
+table, th, td {
+ border: 1px solid black;
+ border-collapse: collapse;
+ }
+ body {
+  background-color: MediumSeaGreen;
+}
+body {
+  background-image: url('background.webp');
+}
+h1 {
+background-color:DodgerBlue;
+}
