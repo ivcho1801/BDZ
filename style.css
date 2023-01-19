@@ -13,11 +13,6 @@ p {
 	margin-left:1%;
 	margin-right:3px;
 } 
-body#glavnastranica{
-	background-attachment:fixed;
-	background-image: url('background.webp');
-	background-repeat: no-repeat;
-}	
 body {
 	margin: 0px;
 }
@@ -124,5 +119,23 @@ img#legenda{
 .julto {
 	background-color: #ffff33;
 }
-
-	
+#glavnaimg {
+	border:none;
+	height:100%;
+	width:auto;
+	background-image:url("background.webp");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.modal .overlay~*,.card{
+	position:relative;
+    box-shadow:none;
+    border-radius:0;
+    border:none;
+    overflow:hidden;
+    text-align:left;
+    background:#fff;
+    margin-bottom:.6em;
+    padding:0;
+    transition:all .3s ease;
+}
