@@ -127,6 +127,11 @@ img#legenda{
 	background-repeat:no-repeat;
 	background-size:cover;
 }
+.logo{
+	border: none;
+	width: 50px;
+	height: auto;
+}
 .modal .overlay~*,.card{
 	position:relative;
     box-shadow:none;
