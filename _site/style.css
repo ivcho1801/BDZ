@@ -144,3 +144,6 @@ img#legenda{
     padding:0;
     transition:all .3s ease;
 }
+a.selectednav {
+	background-color: orange;
+}
